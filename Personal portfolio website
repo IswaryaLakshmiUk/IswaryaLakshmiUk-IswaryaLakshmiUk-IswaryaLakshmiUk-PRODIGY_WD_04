@@ -1,0 +1,122 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Welcome to My Portfolio</h1>
+      <img src="professional_photo.jpg" alt="Professional Photo">
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Insert your detailed background, education, and professional experience here.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <!-- Add more skills as needed -->
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>Description of Project 1</p>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>Description of Project 2</p>
+      </div>
+      <!-- Add more projects as needed -->
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Contact Me: email@example.com</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+CSS 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background: linear-gradient(to bottom, #007bff, #0056b3);
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+header h1 {
+  margin-bottom: 20px;
+}
+
+header img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+section {
+  padding: 50px 0;
+}
+
+#about {
+  background: #f8f9fa;
+}
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills li {
+  display: inline-block;
+  margin-right: 10px;
+  background: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#projects .project {
+  margin-bottom: 20px;
+}
+
+footer {
+  background: #343a40;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
